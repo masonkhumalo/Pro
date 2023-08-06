@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { TheteamComponent } from './components/pages/theteam/theteam.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './components/pages/home/home.component';
     NavbarComponent,
     FooterComponent,
     CarouselComponent,
-    HomeComponent
+    HomeComponent,
+    TheteamComponent
   ],
   imports: [
     BrowserModule,
